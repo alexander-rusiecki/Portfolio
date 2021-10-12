@@ -3,7 +3,7 @@
 
 # TEAM
 
-    Alexander Rusiecki -- Web Developer -- 
+    Alexander Rusiecki -- Web Developer
 
 # THANKS
 
