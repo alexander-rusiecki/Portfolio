@@ -9,6 +9,7 @@
   "license": "MIT",
   "author": "Alexander Rusiecki",
   "homepage": "https://alexanderrusiecki.com",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "build": "parcel build index.html",
     "dev": "parcel index.html --open",
@@ -20,12 +21,14 @@
     "url": "git+https://github.com/alexander-rusiecki/Portfolio.git"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel": "^2.0.0"
   },
   "bugs": {
     "url": "https://github.com/alexander-rusiecki/Portfolio/issues"
   },
-  "main": "js/main.js",
+  "targets": {
+    "main": false
+  },
   "directories": {
     "doc": "doc"
   }
