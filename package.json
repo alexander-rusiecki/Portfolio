@@ -6,7 +6,7 @@
     "Portfolio",
     "Resume"
   ],
-  "license": "",
+  "license": "MIT",
   "author": "Alexander Rusiecki",
   "homepage": "https://alexanderrusiecki.com",
   "scripts": {
@@ -17,9 +17,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexander-rusiecki/Portfolio.git"
+    "url": "git+https://github.com/alexander-rusiecki/Portfolio.git"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
+  },
+  "bugs": {
+    "url": "https://github.com/alexander-rusiecki/Portfolio/issues"
+  },
+  "main": "js/main.js",
+  "directories": {
+    "doc": "doc"
   }
 }
