@@ -11,6 +11,6 @@ Portfolio site for Alexander Rusiecki
 
 - Parcel
 
-## boilerplate
+## Boilerplate
 
 - [HTML5 boilerplate](https://html5boilerplate.com/)
