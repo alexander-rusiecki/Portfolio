@@ -20,9 +20,6 @@
     "type": "git",
     "url": "git+https://github.com/alexander-rusiecki/Portfolio.git"
   },
-  "devDependencies": {
-    "parcel": "^2.0.0"
-  },
   "bugs": {
     "url": "https://github.com/alexander-rusiecki/Portfolio/issues"
   },
@@ -31,5 +28,11 @@
   },
   "directories": {
     "doc": "doc"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0"
   }
 }
