@@ -522,6 +522,10 @@ textarea {
   clear: both;
 }
 
+nav a {
+  text-transform: uppercase;
+}
+
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
