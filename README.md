@@ -4,7 +4,8 @@ Portfolio site for Alexander Rusiecki
 
 ## Tech stack
 
-- HTML
+- HTML5
+- CSS3
 - SASS
 
 ## Build tool
