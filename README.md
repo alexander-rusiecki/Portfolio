@@ -7,6 +7,7 @@ Portfolio site for Alexander Rusiecki
 - HTML5
 - CSS3
 - SASS
+- Javascript
 
 ## Build tool
 
