@@ -5,7 +5,6 @@ Portfolio site for Alexander Rusiecki
 ## Tech stack
 
 - HTML5
-- CSS3
 - SASS
 - Javascript
 
