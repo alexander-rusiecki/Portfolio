@@ -1,26 +1,11 @@
 // Configuration and helpers
-@import
-  'abstracts/variables',
-  'abstracts/mixins';
+@import 'abstracts/variables', 'abstracts/mixins';
 
 // Vendors (third party)
-@import
-  'vendors/normalize';
+@import 'vendors/normalize';
 
-// Base 
-@import
-  'base/base',
-  'base/typography',
-  'base/helpers';
+// Base
+@import 'base/base', 'base/typography', 'base/helpers';
 
 // Layout-related sections
-@import
-  'layout/header',
-  'layout/main';
-
-// 6. Page-specific styles
-@import
-  'pages/home',
-  'pages/about',
-  'pages/experience',
-  'pages/skills';
+@import 'layout/header', 'layout/main';
