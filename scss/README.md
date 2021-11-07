@@ -1,6 +1,6 @@
 # SASS folder structure:
 
-## based on the [7-1 architechture](https://sass-guidelin.es/#architecture){:target="\_blank"} scaled down to 4-1 in this project.
+## based on the [7-1 architechture](https://sass-guidelin.es/#architecture) scaled down to 4-1 in this project.
 
 - abstracts folder contains variables and mixins
 - base folder contains basic styles and helpers
