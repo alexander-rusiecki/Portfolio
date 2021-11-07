@@ -23,11 +23,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/brands.min.css"
+    integrity="sha512-lCU0XyQA8yobR7ychVxEOU5rcxs0+aYh/9gNDLaybsgW9hdrtqczjfKVNIS5doY0Y5627/+3UVuoGv7p8QsUFw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/main.min.css">
 </head>
 
 <body>
-  <header>
+  <header class="header-home">
     <section class="hamburger-button" tabindex="0" role="button">
       <span></span>
     </section>
@@ -41,13 +44,19 @@
         </ul>
       </nav>
     </section>
-  </header>
-  <main>
-    <section>
-      <h1>Alexander Rusiecki,<br>
-        Frontend developer
+    <section class="heading-home">
+      <h1>Alexander <br> Rusiecki,<br>
+        Front-end developer
       </h1>
-      <p>Greater than ever before. He has words. I guarantee you there's no problem, I guarantee.</p>
+    </section>
+  </header>
+  <main class="main-home">
+    <p>Hi! I´m a front-end developer in the making.<br> Based in Stockholm, Sweden.</p>
+    <section class="social-media">
+      <a href="https://www.linkedin.com/in/alexander-rusiecki-b1428519b/" target="_blank" aria-label="Linkedin"
+        title="Alexander Rusiecki´s Linkedin account"><span class="fab fa-linkedin-in"></span></a>
+      <a href="https://github.com/alexander-rusiecki" target="_blank" aria-label="Github"
+        title="Alexander Rusiecki´s Github account"><span class="fab fa-github"></span></a>
     </section>
   </main>
   <canvas id='canvas'></canvas>

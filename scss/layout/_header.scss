@@ -1,5 +1,49 @@
 // This file contains all styles related to the header of the site/application.
 
-header {
-  height: 20vh;
+.header-home {
+  height: 60vh;
+  display: flex;
+  align-items: flex-end;
+  .hamburger-button {
+    height: 5em;
+    width: 5em;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    span {
+      position: absolute;
+      top: 50%;
+      left: 30%;
+      height: 0.2em;
+      width: 1.8em;
+      background-color: white;
+      border-radius: 1em;
+    }
+    &::before {
+      position: absolute;
+      top: 40%;
+      left: 30%;
+      content: '';
+      height: 0.2em;
+      width: 1.8em;
+      background-color: white;
+      border-radius: 1em;
+    }
+    &::after {
+      position: absolute;
+      top: 60%;
+      left: 30%;
+      content: '';
+      height: 0.2em;
+      width: 1.8em;
+      background-color: white;
+      border-radius: 1em;
+    }
+  }
+  h1 {
+    font-size: clamp(1rem, 10vw, 3rem);
+    line-height: 3rem;
+    font-weight: 200;
+  }
 }
