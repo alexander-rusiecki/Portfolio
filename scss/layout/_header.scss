@@ -47,3 +47,48 @@
     font-weight: 200;
   }
 }
+
+.header-about,
+.header-skills,
+.header-experience {
+  height: 20vh;
+  display: flex;
+  align-items: flex-end;
+  .hamburger-button {
+    height: 5em;
+    width: 5em;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    span {
+      position: absolute;
+      top: 50%;
+      left: 30%;
+      height: 0.2em;
+      width: 1.8em;
+      background-color: white;
+      border-radius: 1em;
+    }
+    &::before {
+      position: absolute;
+      top: 40%;
+      left: 30%;
+      content: '';
+      height: 0.2em;
+      width: 1.8em;
+      background-color: white;
+      border-radius: 1em;
+    }
+    &::after {
+      position: absolute;
+      top: 60%;
+      left: 30%;
+      content: '';
+      height: 0.2em;
+      width: 1.8em;
+      background-color: white;
+      border-radius: 1em;
+    }
+  }
+}
