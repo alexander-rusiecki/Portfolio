@@ -14,3 +14,8 @@ a {
   text-decoration: none;
   color: white;
 }
+
+.menu-hidden {
+  max-height: 0;
+  overflow-y: hidden;
+}

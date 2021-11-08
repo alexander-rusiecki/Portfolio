@@ -1,9 +1,8 @@
 // This file contains all styles related to the header of the site/application.
 
-.header-home {
+header {
   height: 60vh;
-  display: flex;
-  align-items: flex-end;
+  position: relative;
   .hamburger-button {
     height: 5em;
     width: 5em;
@@ -11,19 +10,28 @@
     top: 0;
     right: 0;
     z-index: 10;
+    &:hover {
+      background-color: rgb(32, 32, 32);
+      span {
+        margin-left: -0.5em;
+      }
+    }
     span {
       position: absolute;
       top: 50%;
-      left: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
       height: 0.2em;
       width: 1.8em;
       background-color: white;
       border-radius: 1em;
+      transition: margin-left 0.1s ease-in-out;
     }
     &::before {
       position: absolute;
       top: 40%;
-      left: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
       content: '';
       height: 0.2em;
       width: 1.8em;
@@ -33,7 +41,8 @@
     &::after {
       position: absolute;
       top: 60%;
-      left: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
       content: '';
       height: 0.2em;
       width: 1.8em;
@@ -41,7 +50,24 @@
       border-radius: 1em;
     }
   }
+  nav {
+    font-size: 1rem;
+    top: 5em;
+    right: 0.5em;
+    height: auto;
+    width: auto;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    ul {
+      li {
+        margin-bottom: 1em;
+      }
+    }
+  }
   h1 {
+    position: absolute;
+    bottom: 0;
     font-size: clamp(1rem, 10vw, 3rem);
     line-height: 3rem;
     font-weight: 200;
@@ -52,43 +78,4 @@
 .header-skills,
 .header-experience {
   height: 20vh;
-  display: flex;
-  align-items: flex-end;
-  .hamburger-button {
-    height: 5em;
-    width: 5em;
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 10;
-    span {
-      position: absolute;
-      top: 50%;
-      left: 30%;
-      height: 0.2em;
-      width: 1.8em;
-      background-color: white;
-      border-radius: 1em;
-    }
-    &::before {
-      position: absolute;
-      top: 40%;
-      left: 30%;
-      content: '';
-      height: 0.2em;
-      width: 1.8em;
-      background-color: white;
-      border-radius: 1em;
-    }
-    &::after {
-      position: absolute;
-      top: 60%;
-      left: 30%;
-      content: '';
-      height: 0.2em;
-      width: 1.8em;
-      background-color: white;
-      border-radius: 1em;
-    }
-  }
 }
