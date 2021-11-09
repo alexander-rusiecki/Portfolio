@@ -1,16 +1,14 @@
 // This file contains all styles related to the main section of the site/application.
 
 .main-home {
-  height: 40vh;
   p {
-    font-size: clamp(1rem, 5vw, 2rem);
-    line-height: 3rem;
+    font-size: clamp(1rem, 6vw, 2rem);
+    line-height: 2rem;
     font-weight: 200;
   }
   .social-media {
-    height: 60%;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    margin-top: 3em;
   }
 }

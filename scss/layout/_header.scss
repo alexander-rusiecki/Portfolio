@@ -10,7 +10,8 @@ header {
     top: 0;
     right: 0;
     z-index: 10;
-    &:hover {
+    &:hover,
+    &:focus {
       background-color: rgb(15, 15, 15);
       span {
         margin-left: -0.2em;
