@@ -73,8 +73,7 @@ header {
       flex-direction: column;
       align-items: center;
       li {
-        margin-bottom: 1em;
-        display: block;
+        margin-bottom: 1.5em;
       }
     }
   }
@@ -83,7 +82,6 @@ header {
     bottom: 0;
     font-size: clamp(1rem, 10vw, 3rem);
     line-height: 3rem;
-    font-weight: 200;
   }
 }
 .header-about,
