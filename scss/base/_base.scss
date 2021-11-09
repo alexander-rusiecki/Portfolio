@@ -17,5 +17,6 @@ a {
 
 .menu-hidden {
   max-height: 0;
+  // transform: translateY(-100%);
   overflow-y: hidden;
 }
