@@ -1,7 +1,6 @@
 // This file contains all styles related to the header of the site/application.
-
 header {
-  height: 60vh;
+  height: 55vh;
   position: relative;
   .hamburger-button {
     height: 5em;
@@ -79,8 +78,8 @@ header {
     line-height: 2.5rem;
   }
 }
+.header-experience,
 .header-about,
-.header-skills,
-.header-experience {
+.header-skills {
   height: 20vh;
 }
