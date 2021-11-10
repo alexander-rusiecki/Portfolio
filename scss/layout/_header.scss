@@ -2,6 +2,9 @@
 header {
   height: 55vh;
   position: relative;
+  @include portrait-phone {
+    height: 50vh;
+  }
   .hamburger-button {
     height: 5em;
     width: 5em;
@@ -10,7 +13,7 @@ header {
     z-index: 10;
     &:hover,
     &:focus {
-      background-color: rgb(15, 15, 15);
+      background-color: rgb(5, 5, 5);
       span {
         margin-left: -0.2em;
       }
@@ -56,11 +59,13 @@ header {
     }
   }
   nav {
-    background-color: rgb(15, 15, 15);
+    background-color: rgb(5, 5, 5);
     width: 5em;
     position: fixed;
     top: 5em;
     right: 0;
+    transition: transform 0.3s ease;
+
     ul {
       margin: 0 auto;
       padding: 0;
@@ -68,6 +73,11 @@ header {
         display: grid;
         place-items: center;
         height: 3em;
+        i {
+          &:hover {
+            transform: scale(1.2);
+          }
+        }
       }
     }
   }
@@ -76,6 +86,9 @@ header {
     bottom: 0;
     font-size: clamp(1rem, 10vw, 3rem);
     line-height: 2.5rem;
+    @include portrait-phone {
+      font-size: clamp(1rem, 6vw, 3rem);
+    }
   }
 }
 .header-experience,

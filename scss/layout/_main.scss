@@ -6,11 +6,17 @@
     font-size: clamp(1rem, 6vw, 2rem);
     line-height: 2rem;
     font-weight: 200;
+    @include portrait-phone {
+      font-size: clamp(1rem, 4vw, 3rem);
+    }
   }
   .social-media {
     display: flex;
     justify-content: space-around;
     margin-top: 4em;
+    @include portrait-phone {
+      font-size: clamp(1rem, 4vw, 3rem);
+    }
   }
 }
 
@@ -37,6 +43,9 @@
     font-size: clamp(1rem, 6vw, 2rem);
     position: relative;
     margin: 1em 0 0.5em 0;
+    @include portrait-phone {
+      font-size: clamp(1rem, 4vw, 3rem);
+    }
     &::after {
       content: '';
       position: absolute;

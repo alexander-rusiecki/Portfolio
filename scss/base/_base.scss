@@ -14,6 +14,9 @@ body {
   p {
     font-weight: 200;
   }
+  @include portrait-phone {
+    padding: 0 10%;
+  }
 }
 
 a {
@@ -22,7 +25,6 @@ a {
 }
 
 .menu-hidden {
-  max-height: 0;
-  // transform: translateY(-100%);
+  transform: translateY(-150%);
   overflow-y: hidden;
 }
