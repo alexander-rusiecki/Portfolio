@@ -147,6 +147,6 @@ window.addEventListener('resize', function () {
 
 const hamburgerButton = document.querySelector('.hamburger-button');
 const myNav = document.querySelector('nav');
-hamburgerButton.addEventListener('click', () => {
-  myNav.classList.toggle('menu-hidden');
-});
+hamburgerButton.addEventListener('click', () =>
+  myNav.classList.toggle('menu-hidden')
+);
