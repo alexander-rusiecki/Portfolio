@@ -28,3 +28,7 @@ a {
   transform: translateY(-150%);
   overflow-y: hidden;
 }
+
+.fab {
+  font-size: clamp(1rem, 8vw, 4rem);
+}
