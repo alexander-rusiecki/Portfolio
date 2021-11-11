@@ -14,7 +14,7 @@ let w = (canvas.width = window.innerWidth),
 
     color: 'hsla(hue,100%,light%,.05)',
     baseLight: 50,
-    addedLight: 10, // [50-10,50+10]
+    addedLight: 10,
     shadowToTimePropMult: 6,
     baseLightInputMultiplier: 0.01,
     addedLightInputMultiplier: 0.02,
@@ -40,7 +40,7 @@ function loop() {
 
   ctx.globalCompositeOperation = 'source-over';
   ctx.shadowBlur = 0;
-  ctx.fillStyle = 'rgba(0,0,0,alp)'.replace('alp', opts.repaintAlpha);
+  ctx.fillStyle = 'rgba(0,9,20,alp)'.replace('alp', opts.repaintAlpha);
   ctx.fillRect(0, 0, w, h);
   ctx.globalCompositeOperation = 'lighter';
 
