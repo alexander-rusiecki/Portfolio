@@ -31,45 +31,57 @@
 
 <body>
   <header class="header-skills">
-    <button class="hamburger-button" aria-label="Open the menu" aria-haspopup="true">
+    <button class="hamburger-button" aria-label="Open the menu" aria-haspopup="true" aria-controls="site-menu">
       <span></span>
     </button>
     <nav class="menu-hidden">
-      <ul role='menu'>
-        <li>
-          <a role="menuitem" href="index.html">
+      <ul role="menu" id="site-menu">
+        <li role="menuitem">
+          <a href="index.html">
             <i class="fas fa-home fa-lg" aria-hidden="true"></i>
             <span class="visually-hidden">Home</span>
           </a>
         </li>
-        <li>
-          <a role="menuitem" href="experience.html">
+        <li role="menuitem">
+          <a href="experience.html">
             <i class="fas fa-briefcase fa-lg" aria-hidden="true"></i>
             <span class="visually-hidden">My work experience</span>
           </a>
         </li>
-        <li><a role="menuitem" href="about.html"><i class="fas fa-info fa-lg" aria-hidden="true"></i><span
-              class="visually-hidden">About
-              me</span></a></li>
-        <li><a role="menuitem" href="skills.html"><i class="fas fa-code fa-lg" aria-hidden="true"></i><span
-              class="visually-hidden">My
-              coding
-              skills</span></a></li>
+        <li role="menuitem">
+          <a href="about.html">
+            <i class="fas fa-info fa-lg" aria-hidden="true"></i>
+            <span class="visually-hidden">About me</span>
+          </a>
+        </li>
+        <li role="menuitem">
+          <a href="skills.html">
+            <i class="fas fa-code fa-lg" aria-hidden="true"></i>
+            <span class="visually-hidden">My coding skills</span>
+          </a>
+        </li>
       </ul>
     </nav>
   </header>
   <main class="main-skills">
     <section>
-      <h1>My coding experience</h1>
-      <p>Currently studying front-end web development with an interest in back-end development with Node.
+      <h1>
+        My coding experience
+      </h1>
+      <p>
+        Currently studying front-end web development with an interest in back-end development with Node.
       </p>
-      <p>Junior front-end developer eager to learn more and constantly challenging myself.
+      <p>
+        Junior front-end developer eager to learn more and constantly challenging myself.
       </p>
-      <p>My first lines of code where written in Python and besides that and Javascript I have tryed some PHP.
+      <p>
+        My first lines of code where written in Python and besides that and Javascript I have tryed some PHP.
       </p>
     </section>
     <section>
-      <h2>My coding skills</h2>
+      <h2>
+        My coding skills
+      </h2>
       <dl>
         <dt>Languages</dt>
         <dd>HTML</dd>

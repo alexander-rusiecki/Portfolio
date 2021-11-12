@@ -31,44 +31,56 @@
 
 <body>
   <header class="header-about">
-    <button class="hamburger-button" aria-label="Open the menu" aria-haspopup="true">
+    <button class="hamburger-button" aria-label="Open the menu" aria-haspopup="true" aria-controls="site-menu">
       <span></span>
     </button>
-    <nav class="menu-hidden" role='navigation'>
-      <ul role='menu'>
-        <li>
-          <a role="menuitem" href="index.html">
+    <nav class="menu-hidden">
+      <ul role="menu" id="site-menu">
+        <li role="menuitem">
+          <a href="index.html">
             <i class="fas fa-home fa-lg" aria-hidden="true"></i>
             <span class="visually-hidden">Home</span>
           </a>
         </li>
-        <li>
-          <a role="menuitem" href="experience.html">
+        <li role="menuitem">
+          <a href="experience.html">
             <i class="fas fa-briefcase fa-lg" aria-hidden="true"></i>
             <span class="visually-hidden">My work experience</span>
           </a>
         </li>
-        <li><a role="menuitem" href="about.html"><i class="fas fa-info fa-lg" aria-hidden="true"></i><span
-              class="visually-hidden">About
-              me</span></a></li>
-        <li><a role="menuitem" href="skills.html"><i class="fas fa-code fa-lg" aria-hidden="true"></i><span
-              class="visually-hidden">My
-              coding
-              skills</span></a></li>
+        <li role="menuitem">
+          <a href="about.html">
+            <i class="fas fa-info fa-lg" aria-hidden="true"></i>
+            <span class="visually-hidden">About me</span>
+          </a>
+        </li>
+        <li role="menuitem">
+          <a href="skills.html">
+            <i class="fas fa-code fa-lg" aria-hidden="true"></i>
+            <span class="visually-hidden">My coding skills</span>
+          </a>
+        </li>
       </ul>
     </nav>
   </header>
   <main class="main-about">
     <section>
-      <h1>About me</h1>
-      <p>Born and raised in Sweden´s capital of Stockholm with a background in broadcasting and media management.
+      <h1>
+        About me
+      </h1>
+      <p>
+        Born and raised in Sweden´s capital of Stockholm with a background in broadcasting and media management.
       </p>
-      <p>After 13 years in the media business I think it is time to move on to bigger things!</p>
-      <p>And he referred to my words - if they're small, something else must be small. I think my strongest asset maybe
+      <p>
+        After 13 years in the media business I think it is time to move on to bigger things!
+      </p>
+      <p>
+        And he referred to my words - if they're small, something else must be small. I think my strongest asset maybe
         by far is my temperament. I think the only difference between me and the other placeholder text is that I’m more
         honest and my words are more beautiful. If Trump Ipsum weren’t my own words, perhaps I’d be dating it. It also
         could be some wordsmith sitting on their bed that weights 400 pounds. The best taco bowls are made in Trump
-        Tower Grill. While that's mock-ups and this is politics, are they really so different?</p>
+        Tower Grill. While that's mock-ups and this is politics, are they really so different?
+      </p>
     </section>
   </main>
   <canvas id="canvas" role="img" aria-label="An animated background">An animated background</canvas>
