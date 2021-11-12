@@ -1,10 +1,8 @@
 // This file contains all styles related to the main section of the site/application.
-.main-home,
-.main-about,
-.main-skills {
+main {
   p {
     font-size: clamp(1rem, 6vw, 2rem);
-    line-height: 2rem;
+    line-height: 1.5rem;
     font-weight: 200;
     @include portrait-phone {
       font-size: clamp(1rem, 4vw, 3rem);
@@ -13,7 +11,7 @@
   .social-media {
     display: flex;
     justify-content: space-around;
-    margin-top: 4em;
+    margin-top: 6em;
     @include portrait-phone {
       font-size: clamp(1rem, 4vw, 3rem);
     }
