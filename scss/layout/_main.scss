@@ -3,7 +3,6 @@ main {
   p {
     font-size: clamp(1rem, 6vw, 2rem);
     line-height: 1.5rem;
-    font-weight: 200;
     @include portrait-phone {
       font-size: clamp(1rem, 4vw, 3rem);
     }
@@ -19,10 +18,11 @@ main {
 }
 
 .main-experience {
+  margin-bottom: 5em;
   hr {
     border: 0;
     height: 1px;
-    background: #333;
+    background: $color-grey-light;
   }
   h2 {
     margin-bottom: 0;
@@ -33,6 +33,10 @@ main {
   p {
     margin: 0;
   }
+}
+
+.main-about {
+  margin-bottom: 5em;
 }
 
 .main-skills section {
@@ -48,10 +52,10 @@ main {
       content: '';
       position: absolute;
       left: 0;
-      bottom: 0;
+      bottom: -0.2em;
       height: 1px;
       width: 10%;
-      border-bottom: 1px solid grey;
+      border-bottom: 1px solid $color-grey-light;
     }
   }
 }
