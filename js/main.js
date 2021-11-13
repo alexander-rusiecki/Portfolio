@@ -1,3 +1,4 @@
+// Canvas Animation (see LICENSE.txt for attribution)
 let w = (canvas.width = window.innerWidth),
   h = (canvas.height = window.innerHeight),
   ctx = canvas.getContext('2d'),
@@ -145,6 +146,8 @@ window.addEventListener('resize', function () {
   dieY = h / 2 / opts.len;
 });
 
+
+// Handles navigation expansion/contraction and toggles aria-label value
 const hamburgerButton = document.querySelector('.hamburger-button');
 const dropdownMenu = document.querySelector('nav');
 hamburgerButton.addEventListener('click', () => {
