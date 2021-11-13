@@ -18,6 +18,9 @@ body {
   @include tablet {
     padding: 0 10%;
   }
+  @include desktop {
+    padding: 0 15%;
+  }
 }
 
 a {
