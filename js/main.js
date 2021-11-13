@@ -146,9 +146,9 @@ window.addEventListener('resize', function () {
 });
 
 const hamburgerButton = document.querySelector('.hamburger-button');
-const myNav = document.querySelector('nav');
+const dropdownMenu = document.querySelector('nav');
 hamburgerButton.addEventListener('click', () => {
-  myNav.classList.toggle('menu-hidden'),
+  dropdownMenu.classList.toggle('menu-hidden'),
     hamburgerButton.getAttribute('aria-label') === 'Open the menu'
       ? hamburgerButton.setAttribute('aria-label', 'Close the menu')
       : hamburgerButton.setAttribute('aria-label', 'Open the menu');

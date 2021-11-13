@@ -3,8 +3,8 @@
 header {
   height: 55vh;
   position: relative;
-  @include portrait-phone {
-    height: 50vh;
+  @include tablet {
+    height: 45vh;
   }
   .hamburger-button {
     height: 5em;
@@ -64,10 +64,10 @@ header {
   h1 {
     position: absolute;
     bottom: 0;
-    font-size: clamp(0.5rem, 10vw, 2rem);
+    font-size: clamp(1rem, 8vw, 2.5rem);
     line-height: 2.5rem;
-    @include portrait-phone {
-      font-size: clamp(1rem, 6vw, 3rem);
+    @include tablet {
+      line-height: 4rem;
     }
   }
 }

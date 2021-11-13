@@ -1,12 +1,6 @@
 // This file contains all application-wide Sass mixins.
 
 // Breakpoint mixins
-@mixin portrait-phone {
-  @media screen and (min-width: $breakpoint-phone-portrait) {
-    @content;
-  }
-}
-
 @mixin tablet {
   @media screen and (min-width: $breakpoint-tablet) {
     @content;
