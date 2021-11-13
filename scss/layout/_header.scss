@@ -1,4 +1,5 @@
 // This file contains all styles related to the header of the site/application.
+
 header {
   height: 55vh;
   position: relative;
@@ -35,8 +36,9 @@ header {
       @include create-hamburger-span(60%);
     }
   }
+
   nav {
-    background-color: rgb(5, 5, 5);
+    background-color: $color-black-light;
     width: 5em;
     position: fixed;
     top: 5em;
@@ -58,16 +60,18 @@ header {
       }
     }
   }
+
   h1 {
     position: absolute;
     bottom: 0;
-    font-size: clamp(1rem, 10vw, 3rem);
+    font-size: clamp(0.5rem, 10vw, 2rem);
     line-height: 2.5rem;
     @include portrait-phone {
       font-size: clamp(1rem, 6vw, 3rem);
     }
   }
 }
+
 .header-experience,
 .header-about,
 .header-skills {

@@ -4,9 +4,13 @@
 $primary-font: 'Nunito Sans', sans-serif;
 
 // Colors
-$color-white: hsl(0, 0%, 100%);
+$color-off-white: hsl(36, 33%, 97%);
 $color-black-light: hsl(0, 0%, 2%);
+$color-black-lighter: hsl(240, 100%, 2%);
 $color-grey-light: hsl(0, 0%, 20%);
+
+// Font weights
+$font-weight-light: 200;
 
 // Media query breakpoints
 $breakpoint-phone-portrait: '576px';
