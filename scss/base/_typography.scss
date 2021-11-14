@@ -1,4 +1,32 @@
-body {
+// Typography related rules such as font family, font color, font size and font weight
+
+html,
+h1,
+h2,
+h3,
+p {
   font-family: $primary-font;
   color: $color-off-white;
+  font-weight: $font-weight-light;
+}
+
+h1 {
+  font-size: clamp(1rem, 10vw, 2.5rem);
+}
+
+h2 {
+  font-size: clamp(1rem, 8vw, 2rem);
+}
+
+h3 {
+  font-size: clamp(1rem, 6vw, 2rem);
+}
+
+p {
+  font-size: clamp(1rem, 4vw, 1.5rem);
+}
+
+address,
+time {
+  font-size: 1rem;
 }

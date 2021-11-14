@@ -1,11 +1,11 @@
-// This file contains all styles related to the header of the site/application.
+// This file contains all css rules related to the header of the site/application.
 
 header {
   height: 55vh;
-  position: relative;
   @include tablet {
-    height: 45vh;
+    height: 50vh;
   }
+  position: relative;
   .hamburger-button {
     height: 5em;
     width: 5em;
@@ -64,10 +64,9 @@ header {
   h1 {
     position: absolute;
     bottom: 0;
-    font-size: clamp(1rem, 8vw, 2.5rem);
     line-height: 2.5rem;
     @include tablet {
-      line-height: 4rem;
+      line-height: 3.5rem;
     }
   }
 }

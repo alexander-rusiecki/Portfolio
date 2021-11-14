@@ -1,33 +1,23 @@
 // This file contains all styles related to the main section of the site/application.
 
 main {
-  h1 {
-    font-size: clamp(1rem, 10vw, 2.5rem);
-  }
-  h2 {
-    font-size: clamp(1rem, 8vw, 2rem);
-  }
-  h3 {
-    font-size: clamp(1rem, 4vw, 1.5rem);
-  }
   p {
-    font-size: clamp(1rem, 5vw, 1rem);
     line-height: 1.5rem;
     @include tablet {
-      line-height: 3rem;
+      line-height: 2.5rem;
     }
   }
   .social-media {
     display: flex;
     justify-content: space-around;
     margin-top: 6em;
+    @include tablet {
+      margin-top: 16em;
+    }
 
     i:hover {
       transform: scale(1.05);
       transition: 0.05s ease;
-    }
-    @include tablet {
-      margin-top: 12em;
     }
     @include desktop {
       width: 15%;
@@ -54,7 +44,6 @@ main {
   p,
   address {
     margin: 0;
-    font-size: clamp(1rem, 3vw, 1rem);
   }
 }
 
@@ -64,11 +53,11 @@ main {
 
 .main-skills {
   margin-bottom: 5em;
+  section {
+    margin-bottom: 10em;
+  }
   h3 {
-    font-size: clamp(0.5rem, 6vw, 2rem);
     position: relative;
-    margin: 1em 0 0.5em 0;
-
     &::after {
       content: '';
       position: absolute;
@@ -83,12 +72,11 @@ main {
   .skills-list {
     padding: 0;
     h3 {
-      font-size: clamp(0.5rem, 6vw, 1.5rem);
+      margin-bottom: 0.5em;
     }
     p {
       margin: 0;
       transform: translateX(1em);
-      font-size: clamp(0.5rem, 5vw, 1rem);
     }
     @include desktop {
       display: flex;
