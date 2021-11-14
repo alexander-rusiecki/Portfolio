@@ -21,6 +21,11 @@ main {
     display: flex;
     justify-content: space-around;
     margin-top: 6em;
+
+    i:hover {
+      transform: scale(1.05);
+      transition: 0.05s ease;
+    }
     @include tablet {
       margin-top: 12em;
     }
