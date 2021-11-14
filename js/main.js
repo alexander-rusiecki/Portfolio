@@ -124,7 +124,7 @@ window.addEventListener('resize', function () {
   dieY = h / 2 / opts.len;
 });
 
-// Handles navigation expansion/contraction and toggles aria-label value
+// Handles navigation expansion/contraction, toggles aria-label and aria-expanded value
 const hamburgerButton = document.querySelector('.hamburger-button');
 const dropdownMenu = document.querySelector('nav');
 hamburgerButton.addEventListener('click', () => {
