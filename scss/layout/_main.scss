@@ -54,7 +54,7 @@ main {
   p,
   address {
     margin: 0;
-    font-size: clamp(0.5rem, 3vw, 1rem);
+    font-size: clamp(1rem, 3vw, 1rem);
   }
 }
 
@@ -62,7 +62,7 @@ main {
   margin-bottom: 5em;
 }
 
-.main-skills section {
+.main-skills {
   margin-bottom: 5em;
   h3 {
     font-size: clamp(0.5rem, 6vw, 2rem);
