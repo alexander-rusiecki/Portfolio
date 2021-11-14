@@ -19,11 +19,15 @@ h2 {
 }
 
 h3 {
-  font-size: clamp(1rem, 6vw, 2rem);
+  font-size: clamp(1rem, 6vw, 1.5rem);
 }
 
 p {
   font-size: clamp(1rem, 4vw, 1.5rem);
+}
+
+li {
+  font-size: clamp(1rem, 4vw, 1.2rem);
 }
 
 address,
