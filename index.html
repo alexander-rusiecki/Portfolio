@@ -1,109 +1,163 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Home</title>
+    <meta
+      name="description"
+      content="Portfolio resume site made by Alexander Rusiecki during his frontend web development studies."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="utf-8">
-  <title>Home</title>
-  <meta name="description"
-    content="Portfolio resume site made by Alexander Rusiecki during his frontend web development studies.">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Author / Team -->
+    <link rel="author" href="humans.txt" />
 
-  <!-- Author / Team -->
-  <link rel="author" href="humans.txt">
+    <!-- Open Graph Data -->
+    <meta property="og:title" content="Alexander Rusiecki Home" />
+    <meta
+      property="og:description"
+      content="Portfolio resume site made by Alexander Rusiecki during his frontend web development studies."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://alexanderrusiecki.com" />
+    <meta property="og:image" content="favicons/code-icon.jpg" />
 
-  <!-- Open Graph Data -->
-  <meta property="og:title" content="Alexander Rusiecki Home">
-  <meta property="og:description"
-    content="Portfolio resume site made by Alexander Rusiecki during his frontend web development studies.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://alexanderrusiecki.com">
-  <meta property="og:image" content="favicons/code-icon.jpg">
+    <!-- Favorites Icons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicons/favicon-16x16.png"
+    />
+    <link
+      rel="mask-icon"
+      href="favicons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
 
-  <!-- Favorites Icons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-  <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
+    <!-- Goole Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Goole Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-  <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
 
-  <!-- CSS Stylesheet -->
-  <link rel="stylesheet" href="css/main.min.css">
-</head>
+  <body>
+    <header class="header-home">
+      <!-- Navigation -->
+      <button
+        class="hamburger-button"
+        aria-label="Open the menu"
+        aria-hidden="true"
+        aria-expanded="false"
+      >
+        <span></span>
+      </button>
+      <nav class="menu-hidden">
+        <ul>
+          <li>
+            <a href="index.html" aria-label="Home">
+              <i class="fas fa-home fa-lg" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="experience.html" aria-label="My work experience">
+              <i class="fas fa-briefcase fa-lg" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="about.html" aria-label="About me">
+              <i class="fas fa-info fa-lg" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="skills.html" aria-label="My coding skills">
+              <i class="fas fa-code fa-lg" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <h1>Alexander Rusiecki,<br />Front-end developer</h1>
+    </header>
+    <main class="main-home">
+      <p>
+        Hi! I´m a front-end web developer in the making.<br />
+        Based in Stockholm, Sweden.
+      </p>
 
-<body>
-  <header class="header-home">
+      <!-- Social Media Icons -->
+      <section class="social-media">
+        <h2 class="visually-hidden">Links to social media</h2>
+        <a
+          href="https://www.linkedin.com/in/alexander-rusiecki-b1428519b/"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Linked in"
+          title="Alexander Rusiecki´s Linkedin account"
+        >
+          <i class="fab fa-linkedin-in fa-lg" aria-hidden="true"></i>
+        </a>
+        <a
+          href="https://github.com/alexander-rusiecki"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Github"
+          title="Alexander Rusiecki´s Github account"
+        >
+          <i class="fab fa-github fa-lg" aria-hidden="true"></i>
+        </a>
+      </section>
+    </main>
 
-    <!-- Navigation -->
-    <button class="hamburger-button" aria-label="Open the menu" aria-hidden="true" aria-expanded="false">
-      <span></span>
-    </button>
-    <nav class="menu-hidden">
-      <ul>
-        <li>
-          <a href="index.html" aria-label="Home">
-            <i class="fas fa-home fa-lg" aria-hidden="true"></i>
-          </a>
-        </li>
-        <li>
-          <a href="experience.html" aria-label="My work experience">
-            <i class="fas fa-briefcase fa-lg" aria-hidden="true"></i>
-          </a>
-        </li>
-        <li>
-          <a href="about.html" aria-label="About me">
-            <i class="fas fa-info fa-lg" aria-hidden="true"></i>
-          </a>
-        </li>
-        <li>
-          <a href="skills.html" aria-label="My coding skills">
-            <i class="fas fa-code fa-lg" aria-hidden="true"></i>
-          </a>
-        </li>
-      </ul>
-    </nav>
-    <h1>Alexander Rusiecki,<br>Front-end developer</h1>
-  </header>
-  <main class="main-home">
-    <p>Hi! I´m a front-end web developer in the making.<br> Based in Stockholm, Sweden.</p>
+    <!-- Canvas -->
+    <canvas id="canvas" role="img" aria-label="An animated background"
+      >An animated background</canvas
+    >
 
-    <!-- Social Media Icons -->
-    <section class="social-media">
-      <h2 class="visually-hidden">Links to social media</h2>
-      <a href="https://www.linkedin.com/in/alexander-rusiecki-b1428519b/" target="_blank" rel="noreferrer"
-        aria-label="Linked in" title="Alexander Rusiecki´s Linkedin account">
-        <i class="fab fa-linkedin-in fa-lg" aria-hidden="true"></i>
-      </a>
-      <a href="https://github.com/alexander-rusiecki" target="_blank" rel="noreferrer" aria-label="Github"
-        title="Alexander Rusiecki´s Github account">
-        <i class="fab fa-github fa-lg" aria-hidden="true"></i>
-      </a>
-    </section>
-  </main>
+    <!-- Scripts -->
+    <script type="module" src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script type="module" src="js/plugins.js"></script>
+    <script type="module" src="js/main.js"></script>
 
-  <!-- Canvas -->
-  <canvas id="canvas" role="img" aria-label="An animated background">An animated background</canvas>
-
-  <!-- Scripts -->
-  <script type="module" src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script type="module" src="js/plugins.js"></script>
-  <script type="module" src="js/main.js"></script>
-
-  <!-- Google Analytics -->
-  <script>window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-165733251-2', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
-</body>
-
+    <!-- Google Analytics -->
+    <script>
+      window.ga = function () {
+        ga.q.push(arguments);
+      };
+      ga.q = [];
+      ga.l = +new Date();
+      ga('create', 'UA-165733251-2', 'auto');
+      ga('set', 'anonymizeIp', true);
+      ga('set', 'transport', 'beacon');
+      ga('send', 'pageview');
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+  </body>
 </html>
