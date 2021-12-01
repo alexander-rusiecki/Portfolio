@@ -1,6 +1,7 @@
 # Portfolio
 
 Portfolio site for Alexander Rusiecki
+[Alexander Rusiecki - personal website](https://alexander-rusiecki.github.io/Portfolio/)
 
 ## Tech stack
 
