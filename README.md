@@ -2,7 +2,7 @@
 
 Portfolio site for Alexander Rusiecki
 
-[Link](https://alexander-rusiecki.github.io/Portfolio/)
+[Link](https://alexanderrusiecki.com/)
 
 ## Tech stack
 
