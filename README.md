@@ -1,5 +1,7 @@
 # Portfolio
 
+## Assignment for Medieinstitutet.
+
 Portfolio site for Alexander Rusiecki
 
 [Link](https://alexanderrusiecki.com/)
